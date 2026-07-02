@@ -5,7 +5,7 @@
 }
 .footer__grid {
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1.2fr;
+  grid-template-columns: 1.6fr 1fr 1fr 1.2fr;
   gap: 40px;
   margin-bottom: 48px;
 }

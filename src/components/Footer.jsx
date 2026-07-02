@@ -32,6 +32,14 @@ export default function Footer() {
             <a href="#download">Download App</a>
           </div>
 
+          <div className="footer__links">
+            <h4>Vehicles</h4>
+            <a href="#fleet">Mini (Hatchback)</a>
+            <a href="#fleet">Sedan</a>
+            <a href="#fleet">SUV / MUV</a>
+            <a href="#fleet">Auto Rickshaw</a>
+            <a href="#fleet">Bike Taxi</a>
+          </div>
 
           {/* Contact */}
           <div className="footer__contact">
