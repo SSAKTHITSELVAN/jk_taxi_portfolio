@@ -14,6 +14,7 @@ const VEHS = [
 const STATS = [
   { val:'1000+', lbl:'Rides'  },
   { val:'200+',  lbl:'Riders' },
+  { val:'24/7',  lbl:'Available' },
 ]
 
 export default function Hero() {
@@ -142,9 +143,9 @@ export default function Hero() {
             Download App &amp; Book Now
             <ArrowRight size={16} strokeWidth={2.5} />
           </a>
-          <a href="tel:+919677895027" className="hr-cta-call">
+          <a href="tel:+9104214433435" className="hr-cta-call">
             <Phone size={15} strokeWidth={2.5} />
-            Call +91 96778 95027
+            Call 0421 4433435
           </a>
         </motion.div>
 

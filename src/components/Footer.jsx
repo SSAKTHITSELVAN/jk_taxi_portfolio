@@ -49,6 +49,10 @@ export default function Footer() {
               <Phone size={14} />
               +91 96778 95027
             </a>
+            <a href="tel:+919677885027" className="footer__contact-item">
+              <Phone size={14} />
+              +91 96778 85027
+            </a>
             <a href="mailto:support@jktaxi.in" className="footer__contact-item">
               <Mail size={14} />
               support@jktaxi.in
