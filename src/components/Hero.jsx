@@ -5,9 +5,9 @@ import './Hero.css'
 import heroVideo from '../assets/hero_section_background.mp4'
 
 const VEHS = [
-  { id:'car',  Icon:Car,  label:'Car',   sub:'Mini · Sedan · SUV',  price:'From ₹80'  },
-  { id:'auto', Icon:Bus,  label:'Auto',  sub:'Auto Rickshaw',        price:'From ₹30'  },
-  { id:'bike', Icon:Bike, label:'Bike',  sub:'Two-Wheeler Taxi',     price:'From ₹20'  },
+  { id:'car',  Icon:Car,  label:'Car',   sub:'Mini · Sedan · SUV',  price:'From ₹100' },
+  { id:'auto', Icon:Bus,  label:'Auto',  sub:'Auto Rickshaw',        price:'From ₹80'  },
+  { id:'bike', Icon:Bike, label:'Bike',  sub:'Two-Wheeler Taxi',     price:'From ₹23'  },
   { id:'ping', Icon:Zap,  label:'Ping',  sub:'Nearest Available',    price:'Instant'   },
 ]
 

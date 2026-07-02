@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="footer__logo-text">Taxi</span>
             </div>
             <p className="footer__tagline">
-              Tiruppur's trusted ride-booking platform. Safe, affordable, and always on time.
+              Our cities trusted ride-booking platform. Safe, affordable, and always on time.
             </p>
             <div className="footer__location">
               <MapPin size={14} />
