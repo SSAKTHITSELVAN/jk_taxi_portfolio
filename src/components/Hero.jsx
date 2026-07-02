@@ -53,7 +53,7 @@ export default function Hero() {
           transition={{ duration:0.4 }}
         >
           <span className="hr-label-dot" />
-          Tiruppur's Trusted Ride Service
+          Your Trusted Ride Service
         </motion.p>
 
         {/* Main headline */}
