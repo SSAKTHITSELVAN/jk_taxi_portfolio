@@ -1,16 +1,18 @@
 import { motion } from 'framer-motion'
 import { Users, IndianRupee, Star } from 'lucide-react'
+import miniCar from '../assets/mini_car.jpeg'
 import carImage from '../assets/car_image.jpeg'
+import suvErtica from '../assets/suv_ertica.png'
 import './Fleet.css'
 
 const vehicles = [
   {
-    img: carImage,
+    img: miniCar,
     name: 'Mini',
     type: 'Hatchback',
     seats: 4,
     base: 100,
-    perKm: 18,
+    perKm: 20,
     examples: 'WagonR · Alto · Tiago',
     popular: false,
     accentClass: 'fleet__accent--green',
@@ -21,18 +23,18 @@ const vehicles = [
     type: 'Sedan',
     seats: 4,
     base: 100,
-    perKm: 23,
+    perKm: 20,
     examples: 'Dzire · Etios · Aura',
     popular: true,
     accentClass: 'fleet__accent--purple',
   },
   {
-    img: carImage,
+    img: suvErtica,
     name: 'SUV',
     type: 'SUV / MUV',
     seats: 7,
-    base: 100,
-    perKm: 26,
+    base: 150,
+    perKm: 25,
     examples: 'Ertiga · Innova · Marazzo',
     popular: false,
     accentClass: 'fleet__accent--blue',
